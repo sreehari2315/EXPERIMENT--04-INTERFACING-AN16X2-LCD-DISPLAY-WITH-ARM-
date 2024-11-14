@@ -1,7 +1,7 @@
-# EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
-### Name : Sree Hari k
+# EXPERIMENT--03-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
+### Name : SREE HARI K
 ### Roll no : 212223230212
-### Date of experiment : 22.09.24
+### Date of experiment : 20.09.24
 
 ## Aim: 
 To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
@@ -165,9 +165,9 @@ Lcd_HandleTypeDef lcd;
 void lcd_display()
 {
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"Sree Hari K\n");
+	Lcd_string(&lcd,"Meenu.S\n");
 	Lcd_cursor(&lcd,1,1);
-	Lcd_string(&lcd,"212223230212\n");
+	Lcd_string(&lcd,"212223230124\n");
 	for(int x=0;x<100;x++)
 	{
 		Lcd_cursor(&lcd,2,1);
@@ -273,14 +273,13 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 
 ## Output screen shots of proteus  :
- 
-![ex411](https://github.com/user-attachments/assets/f74de0cd-931a-4248-9e0f-e9971b06671a)
+ ![ex411](https://github.com/user-attachments/assets/f74de0cd-931a-4248-9e0f-e9971b06671a)
+
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
-
 ![ex42](https://github.com/user-attachments/assets/5b05ef47-d26f-4688-85d9-9fd25d1f3648)
 
-
+ 
 ## Result :
 Interfacing a lcd display with ARM microcontroller are simulated in proteus and the results are verified.
